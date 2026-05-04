@@ -216,3 +216,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Ignore environment variables (where you'll hide your API keys)
+.env
+
+# Ignore Python cache (junk files created when you run a script)
+__pycache__/
+*.py[cod]
+
+# Ignore OS-specific junk (Mac/Windows system files)
+.DS_Store
+Thumbs.db
+
+# Ignore large data captures (don't upload 2GB .pcap files!)
+*.pcap
+*.log
